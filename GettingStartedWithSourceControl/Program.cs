@@ -11,5 +11,9 @@ namespace GettingStartedWithSourceControl
         static void Main(string[] args)
         {
         }
+
+        static string getName()
+        {
+        }
     }
 }
