@@ -12,6 +12,7 @@ namespace GettingStartedWithSourceControl
         {
             string usersName = getName();
             Console.WriteLine("Hello, " + usersName);
+            Console.ReadLine();
         }
 
         static string getName()
