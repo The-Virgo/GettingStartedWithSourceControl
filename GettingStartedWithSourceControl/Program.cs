@@ -14,6 +14,10 @@ namespace GettingStartedWithSourceControl
 
         static string getName()
         {
+            Console.WriteLine("Enter Your Name: ");
+            string name = Console.ReadLine();
+
+            return name;
         }
     }
 }
