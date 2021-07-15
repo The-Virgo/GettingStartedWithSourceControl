@@ -10,6 +10,8 @@ namespace GettingStartedWithSourceControl
     {
         static void Main(string[] args)
         {
+            string usersName = getName();
+            Console.WriteLine("Hello, " + usersName);
         }
 
         static string getName()
